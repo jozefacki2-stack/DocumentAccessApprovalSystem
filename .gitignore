@@ -1,0 +1,43 @@
+## Build artefacts
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS cache
+.vs/
+*.VC.db
+*.vsp
+*.vspx
+
+## Rider / JetBrains
+.idea/
+*.iml
+
+## Logs
+*.log
+
+## ASP.NET https dev certs
+**/Properties/launchSettings.json
+**/appsettings.*.local.json
+
+## Misc
+*.DS_Store
+Thumbs.db
+
+## NuGet
+*.nupkg
+packages/
+.nuget/
+
+## Coverage
+coverage*/
+TestResult*/
+*.coverage
+*.coveragexml
+
+## Publish
+publish/
